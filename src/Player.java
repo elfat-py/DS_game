@@ -14,7 +14,7 @@ public class Player extends JFrame implements Serializable {
         this.treasureCount = 0;
         this.maze = maze;
 
-        ImageIcon character = new ImageIcon("C:\\Users\\rolan\\IdeaProjects\\MazeGame\\src\\character.png");
+        ImageIcon character = new ImageIcon("C:\\Users\\User\\IdeaProjects\\DS_game\\MazeGame\\img\\character.png");
         character = new ImageIcon(character.getImage().getScaledInstance(this.maze.getSpacing(),this.maze.getSpacing(), Image.SCALE_SMOOTH));
         playerLabel = new JLabel();
         playerLabel.setBounds(this.getPlayerPositionX(),this.getPlayerPositionY(),this.maze.getSpacing(),this.maze.getSpacing());

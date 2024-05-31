@@ -7,8 +7,8 @@ public class MenuFrame extends JFrame{
     private final Dimension buttonSize = new Dimension(400,150);
 
     private final JButton startButton;
-    private final JButton loadButton;
-    private final quitButton;
+//    private final JButton loadButton;
+//    private final quitButton;
     public MenuFrame(){
         this.setTitle("Menu");
         this.setExtendedState(JFrame.MAXIMIZED_BOTH);

@@ -15,9 +15,9 @@ public class MazeGraphicsPanel extends JPanel {
         this.maze = maze;
         try {
             // Load the PNG image for walls
-            wallImage = ImageIO.read(new File("C:\\Users\\rolan\\IdeaProjects\\MazeGame\\src\\wall.png"));
-            background = ImageIO.read(new File("C:\\Users\\rolan\\IdeaProjects\\MazeGame\\src\\background.png"));
-            treasureImage = ImageIO.read(new File("C:\\Users\\rolan\\IdeaProjects\\MazeGame\\src\\coin1.png"));
+            wallImage = ImageIO.read(new File("C:\\Users\\User\\IdeaProjects\\DS_game\\MazeGame\\img\\wall.png"));
+            background = ImageIO.read(new File("C:\\Users\\User\\IdeaProjects\\DS_game\\MazeGame\\img\\background.png"));
+            treasureImage = ImageIO.read(new File("C:\\Users\\User\\IdeaProjects\\DS_game\\MazeGame\\img\\coin1.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
